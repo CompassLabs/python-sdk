@@ -1,0 +1,10 @@
+# V1MorphoMarketPositionRequest
+
+
+## Fields
+
+| Field                                                                                            | Type                                                                                             | Required                                                                                         | Description                                                                                      |
+| ------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------ |
+| `chain`                                                                                          | [models.V1MorphoMarketPositionChain](../models/v1morphomarketpositionchain.md)                   | :heavy_check_mark:                                                                               | N/A                                                                                              |
+| `user_address`                                                                                   | *str*                                                                                            | :heavy_check_mark:                                                                               | The user address of the desired market position.                                                 |
+| `unique_market_key`                                                                              | *str*                                                                                            | :heavy_check_mark:                                                                               | The key that uniquely identifies the market. This can be found using the 'Get Markets' endpoint. |

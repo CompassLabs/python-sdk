@@ -1,0 +1,11 @@
+# V1AaveHistoricalTransactionsRequest
+
+
+## Fields
+
+| Field                                                                                      | Type                                                                                       | Required                                                                                   | Description                                                                                |
+| ------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------ |
+| `offset`                                                                                   | *Optional[int]*                                                                            | :heavy_minus_sign:                                                                         | The offset of the first item to return.                                                    |
+| `limit`                                                                                    | *Optional[int]*                                                                            | :heavy_minus_sign:                                                                         | The number of items to return.                                                             |
+| `chain`                                                                                    | [models.V1AaveHistoricalTransactionsChain](../models/v1aavehistoricaltransactionschain.md) | :heavy_check_mark:                                                                         | N/A                                                                                        |
+| `user_address`                                                                             | *str*                                                                                      | :heavy_check_mark:                                                                         | The address of the user to get historical transactions for.                                |

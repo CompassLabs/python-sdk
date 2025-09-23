@@ -1,0 +1,17 @@
+# SwapBorrowRate
+
+
+## Fields
+
+| Field                                                                  | Type                                                                   | Required                                                               | Description                                                            |
+| ---------------------------------------------------------------------- | ---------------------------------------------------------------------- | ---------------------------------------------------------------------- | ---------------------------------------------------------------------- |
+| `id`                                                                   | *str*                                                                  | :heavy_check_mark:                                                     | The id of a historical transaction on aave                             |
+| `timestamp`                                                            | *int*                                                                  | :heavy_check_mark:                                                     | Timestamp in unix time                                                 |
+| `tx_hash`                                                              | *str*                                                                  | :heavy_check_mark:                                                     | Transaction hash. You can paste these into the search bar on etherscan |
+| `borrow_rate_mode_from`                                                | *int*                                                                  | :heavy_check_mark:                                                     | N/A                                                                    |
+| `borrow_rate_mode_to`                                                  | *int*                                                                  | :heavy_check_mark:                                                     | N/A                                                                    |
+| `variable_borrow_rate`                                                 | *int*                                                                  | :heavy_check_mark:                                                     | N/A                                                                    |
+| `stable_borrow_rate`                                                   | *int*                                                                  | :heavy_check_mark:                                                     | N/A                                                                    |
+| `reserve`                                                              | [models.Reserve](../models/reserve.md)                                 | :heavy_check_mark:                                                     | N/A                                                                    |
+| `action`                                                               | *Literal["SwapBorrowRate"]*                                            | :heavy_check_mark:                                                     | N/A                                                                    |
+| `block`                                                                | *int*                                                                  | :heavy_check_mark:                                                     | N/A                                                                    |

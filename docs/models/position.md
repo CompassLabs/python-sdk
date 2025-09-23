@@ -1,0 +1,15 @@
+# Position
+
+
+## Fields
+
+| Field                                                                | Type                                                                 | Required                                                             | Description                                                          |
+| -------------------------------------------------------------------- | -------------------------------------------------------------------- | -------------------------------------------------------------------- | -------------------------------------------------------------------- |
+| `chain_id`                                                           | *int*                                                                | :heavy_check_mark:                                                   | N/A                                                                  |
+| `total_open`                                                         | *int*                                                                | :heavy_check_mark:                                                   | N/A                                                                  |
+| `total_closed`                                                       | *int*                                                                | :heavy_check_mark:                                                   | N/A                                                                  |
+| `total_sy`                                                           | *int*                                                                | :heavy_check_mark:                                                   | N/A                                                                  |
+| `open_positions`                                                     | List[[models.OpenPosition](../models/openposition.md)]               | :heavy_check_mark:                                                   | N/A                                                                  |
+| `closed_positions`                                                   | List[[models.OpenPosition](../models/openposition.md)]               | :heavy_check_mark:                                                   | N/A                                                                  |
+| `sy_positions`                                                       | List[[models.SyPosition](../models/syposition.md)]                   | :heavy_check_mark:                                                   | N/A                                                                  |
+| `updated_at`                                                         | [date](https://docs.python.org/3/library/datetime.html#date-objects) | :heavy_check_mark:                                                   | N/A                                                                  |

@@ -1,0 +1,18 @@
+# PendleMarket
+
+
+## Fields
+
+| Field                                                                | Type                                                                 | Required                                                             | Description                                                          |
+| -------------------------------------------------------------------- | -------------------------------------------------------------------- | -------------------------------------------------------------------- | -------------------------------------------------------------------- |
+| `name`                                                               | *str*                                                                | :heavy_check_mark:                                                   | N/A                                                                  |
+| `address`                                                            | *str*                                                                | :heavy_check_mark:                                                   | N/A                                                                  |
+| `expiry`                                                             | [date](https://docs.python.org/3/library/datetime.html#date-objects) | :heavy_check_mark:                                                   | N/A                                                                  |
+| `pt`                                                                 | *str*                                                                | :heavy_check_mark:                                                   | N/A                                                                  |
+| `yt`                                                                 | *str*                                                                | :heavy_check_mark:                                                   | N/A                                                                  |
+| `sy`                                                                 | *str*                                                                | :heavy_check_mark:                                                   | N/A                                                                  |
+| `underlying_asset`                                                   | *str*                                                                | :heavy_check_mark:                                                   | N/A                                                                  |
+| `details`                                                            | [models.Details](../models/details.md)                               | :heavy_check_mark:                                                   | N/A                                                                  |
+| `is_new`                                                             | *bool*                                                               | :heavy_check_mark:                                                   | N/A                                                                  |
+| `is_prime`                                                           | *bool*                                                               | :heavy_check_mark:                                                   | N/A                                                                  |
+| `timestamp`                                                          | [date](https://docs.python.org/3/library/datetime.html#date-objects) | :heavy_check_mark:                                                   | N/A                                                                  |

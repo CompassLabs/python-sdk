@@ -1,0 +1,9 @@
+# UniswapSellQuoteInfoResponse
+
+
+## Fields
+
+| Field                                                                                            | Type                                                                                             | Required                                                                                         | Description                                                                                      |
+| ------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------ |
+| `amount_out`                                                                                     | *str*                                                                                            | :heavy_check_mark:                                                                               | The amount of token_out you would receive from the pool.                                         |
+| `price_after`                                                                                    | *str*                                                                                            | :heavy_check_mark:                                                                               | The price of the pool after this trade would happen. (How much token0 you need to buy 1 token1.) |

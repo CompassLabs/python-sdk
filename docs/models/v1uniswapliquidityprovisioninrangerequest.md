@@ -1,0 +1,9 @@
+# V1UniswapLiquidityProvisionInRangeRequest
+
+
+## Fields
+
+| Field                                                                                                  | Type                                                                                                   | Required                                                                                               | Description                                                                                            |
+| ------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------ |
+| `chain`                                                                                                | [models.V1UniswapLiquidityProvisionInRangeChain](../models/v1uniswapliquidityprovisioninrangechain.md) | :heavy_check_mark:                                                                                     | N/A                                                                                                    |
+| `token_id`                                                                                             | *int*                                                                                                  | :heavy_check_mark:                                                                                     | Token ID of the NFT representing the liquidity provisioned position.                                   |

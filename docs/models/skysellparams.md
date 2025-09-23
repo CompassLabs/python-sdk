@@ -1,0 +1,10 @@
+# SkySellParams
+
+
+## Fields
+
+| Field                                                                    | Type                                                                     | Required                                                                 | Description                                                              | Example                                                                  |
+| ------------------------------------------------------------------------ | ------------------------------------------------------------------------ | ------------------------------------------------------------------------ | ------------------------------------------------------------------------ | ------------------------------------------------------------------------ |
+| `action_type`                                                            | *Optional[Literal["SKY_SELL"]]*                                          | :heavy_minus_sign:                                                       | N/A                                                                      |                                                                          |
+| `token_out`                                                              | [models.SkySellParamsTokenOut](../models/skysellparamstokenout.md)       | :heavy_check_mark:                                                       | The token you would like to swap 1:1 with USDS. Choose from DAI or USDC. |                                                                          |
+| `amount`                                                                 | [models.SkySellParamsAmount](../models/skysellparamsamount.md)           | :heavy_check_mark:                                                       | The amount of USDS you would like to sell 1:1 for 'token_out'.           | 1.5                                                                      |

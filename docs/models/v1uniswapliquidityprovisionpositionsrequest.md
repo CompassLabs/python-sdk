@@ -1,0 +1,9 @@
+# V1UniswapLiquidityProvisionPositionsRequest
+
+
+## Fields
+
+| Field                                                                                                      | Type                                                                                                       | Required                                                                                                   | Description                                                                                                |
+| ---------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------- |
+| `chain`                                                                                                    | [models.V1UniswapLiquidityProvisionPositionsChain](../models/v1uniswapliquidityprovisionpositionschain.md) | :heavy_check_mark:                                                                                         | N/A                                                                                                        |
+| `user`                                                                                                     | *Optional[str]*                                                                                            | :heavy_minus_sign:                                                                                         | The user to get positions for.                                                                             |

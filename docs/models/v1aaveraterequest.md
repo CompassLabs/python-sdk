@@ -1,0 +1,10 @@
+# V1AaveRateRequest
+
+
+## Fields
+
+| Field                                                                | Type                                                                 | Required                                                             | Description                                                          | Example                                                              |
+| -------------------------------------------------------------------- | -------------------------------------------------------------------- | -------------------------------------------------------------------- | -------------------------------------------------------------------- | -------------------------------------------------------------------- |
+| `chain`                                                              | [models.V1AaveRateChain](../models/v1aaveratechain.md)               | :heavy_check_mark:                                                   | N/A                                                                  |                                                                      |
+| `block`                                                              | *OptionalNullable[int]*                                              | :heavy_minus_sign:                                                   | Optional block number (defaults to latest).                          |                                                                      |
+| `token`                                                              | *str*                                                                | :heavy_check_mark:                                                   | The symbol or address of the token to fetch the user's position on.. | USDC                                                                 |

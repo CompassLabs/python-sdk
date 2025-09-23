@@ -1,0 +1,8 @@
+# UniswapLPPositionsInfoResponse
+
+
+## Fields
+
+| Field                                                                                                                     | Type                                                                                                                      | Required                                                                                                                  | Description                                                                                                               |
+| ------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------- |
+| `positions`                                                                                                               | Dict[str, [models.UniswapPositionsSolidityResponse](../models/uniswappositionssolidityresponse.md)]                       | :heavy_check_mark:                                                                                                        |  Liquidity provision positions belonging to a particular user keyed by the<br/>        token of owner index of the position.  |

@@ -1,0 +1,15 @@
+# UsageAsCollateral
+
+
+## Fields
+
+| Field                                                                  | Type                                                                   | Required                                                               | Description                                                            |
+| ---------------------------------------------------------------------- | ---------------------------------------------------------------------- | ---------------------------------------------------------------------- | ---------------------------------------------------------------------- |
+| `id`                                                                   | *str*                                                                  | :heavy_check_mark:                                                     | The id of a historical transaction on aave                             |
+| `timestamp`                                                            | *int*                                                                  | :heavy_check_mark:                                                     | Timestamp in unix time                                                 |
+| `tx_hash`                                                              | *str*                                                                  | :heavy_check_mark:                                                     | Transaction hash. You can paste these into the search bar on etherscan |
+| `from_state`                                                           | *bool*                                                                 | :heavy_check_mark:                                                     | N/A                                                                    |
+| `to_state`                                                             | *bool*                                                                 | :heavy_check_mark:                                                     | N/A                                                                    |
+| `reserve`                                                              | [models.Reserve](../models/reserve.md)                                 | :heavy_check_mark:                                                     | N/A                                                                    |
+| `action`                                                               | *Literal["UsageAsCollateral"]*                                         | :heavy_check_mark:                                                     | The type of transaction                                                |
+| `block`                                                                | *int*                                                                  | :heavy_check_mark:                                                     | N/A                                                                    |

@@ -1,0 +1,10 @@
+# SkyDepositParams
+
+
+## Fields
+
+| Field                                                                 | Type                                                                  | Required                                                              | Description                                                           | Example                                                               |
+| --------------------------------------------------------------------- | --------------------------------------------------------------------- | --------------------------------------------------------------------- | --------------------------------------------------------------------- | --------------------------------------------------------------------- |
+| `action_type`                                                         | *Optional[Literal["SKY_DEPOSIT"]]*                                    | :heavy_minus_sign:                                                    | N/A                                                                   |                                                                       |
+| `amount`                                                              | [models.SkyDepositParamsAmount](../models/skydepositparamsamount.md)  | :heavy_check_mark:                                                    | The amount of USDS you would like to deposit for sUSDS to earn yield. | 1.5                                                                   |
+| `receiver`                                                            | *OptionalNullable[str]*                                               | :heavy_minus_sign:                                                    | The address which will receive the sUSDS. Defaults to the sender.     |                                                                       |

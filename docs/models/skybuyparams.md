@@ -1,0 +1,10 @@
+# SkyBuyParams
+
+
+## Fields
+
+| Field                                                                   | Type                                                                    | Required                                                                | Description                                                             | Example                                                                 |
+| ----------------------------------------------------------------------- | ----------------------------------------------------------------------- | ----------------------------------------------------------------------- | ----------------------------------------------------------------------- | ----------------------------------------------------------------------- |
+| `action_type`                                                           | *Optional[Literal["SKY_BUY"]]*                                          | :heavy_minus_sign:                                                      | N/A                                                                     |                                                                         |
+| `token_in`                                                              | [models.SkyBuyParamsTokenIn](../models/skybuyparamstokenin.md)          | :heavy_check_mark:                                                      | The token you would like to swap 1:1 for USDS. Choose from DAI or USDC. |                                                                         |
+| `amount`                                                                | [models.SkyBuyParamsAmount](../models/skybuyparamsamount.md)            | :heavy_check_mark:                                                      | The amount of USDS you would like to buy 1:1 with 'token_in'.           | 1.5                                                                     |

@@ -1,0 +1,10 @@
+# V1TokenBalanceRequest
+
+
+## Fields
+
+| Field                                                                | Type                                                                 | Required                                                             | Description                                                          | Example                                                              |
+| -------------------------------------------------------------------- | -------------------------------------------------------------------- | -------------------------------------------------------------------- | -------------------------------------------------------------------- | -------------------------------------------------------------------- |
+| `chain`                                                              | [models.V1TokenBalanceChain](../models/v1tokenbalancechain.md)       | :heavy_check_mark:                                                   | N/A                                                                  |                                                                      |
+| `user`                                                               | *str*                                                                | :heavy_check_mark:                                                   | The user to get the token balance of.                                |                                                                      |
+| `token`                                                              | *str*                                                                | :heavy_check_mark:                                                   | The symbol or address of the token for which the balance is checked. | USDC                                                                 |

@@ -1,0 +1,9 @@
+# V1MorphoVaultsRequest
+
+
+## Fields
+
+| Field                                                                           | Type                                                                            | Required                                                                        | Description                                                                     | Example                                                                         |
+| ------------------------------------------------------------------------------- | ------------------------------------------------------------------------------- | ------------------------------------------------------------------------------- | ------------------------------------------------------------------------------- | ------------------------------------------------------------------------------- |
+| `chain`                                                                         | [models.V1MorphoVaultsChain](../models/v1morphovaultschain.md)                  | :heavy_check_mark:                                                              | N/A                                                                             |                                                                                 |
+| `deposit_token`                                                                 | *OptionalNullable[str]*                                                         | :heavy_minus_sign:                                                              | Symbol or address of the deposit token to filter vaults by. Optional parameter. | USDC                                                                            |

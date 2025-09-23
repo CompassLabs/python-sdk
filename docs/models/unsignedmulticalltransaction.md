@@ -1,0 +1,17 @@
+# UnsignedMulticallTransaction
+
+
+## Fields
+
+| Field                                                                | Type                                                                 | Required                                                             | Description                                                          |
+| -------------------------------------------------------------------- | -------------------------------------------------------------------- | -------------------------------------------------------------------- | -------------------------------------------------------------------- |
+| `chain_id`                                                           | *str*                                                                | :heavy_check_mark:                                                   | The chain id of the transaction                                      |
+| `data`                                                               | *str*                                                                | :heavy_check_mark:                                                   | The data of the transaction                                          |
+| `from_`                                                              | *str*                                                                | :heavy_check_mark:                                                   | The sender of the transaction                                        |
+| `gas`                                                                | *Nullable[str]*                                                      | :heavy_check_mark:                                                   | The gas of the transaction                                           |
+| `to`                                                                 | *str*                                                                | :heavy_check_mark:                                                   | The recipient of the transaction                                     |
+| `value`                                                              | *str*                                                                | :heavy_check_mark:                                                   | The value of the transaction                                         |
+| `nonce`                                                              | *str*                                                                | :heavy_check_mark:                                                   | The nonce of the address                                             |
+| `max_fee_per_gas`                                                    | *str*                                                                | :heavy_check_mark:                                                   | The max fee per gas of the transaction                               |
+| `max_priority_fee_per_gas`                                           | *str*                                                                | :heavy_check_mark:                                                   | The max priority fee per gas of the transaction                      |
+| `authorization_list`                                                 | List[[models.SignedAuthorization](../models/signedauthorization.md)] | :heavy_minus_sign:                                                   | EIP-7702 authorization                                               |

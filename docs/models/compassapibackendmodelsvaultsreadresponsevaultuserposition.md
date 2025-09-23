@@ -1,0 +1,9 @@
+# CompassAPIBackendModelsVaultsReadResponseVaultUserPosition
+
+
+## Fields
+
+| Field                                                                                                         | Type                                                                                                          | Required                                                                                                      | Description                                                                                                   |
+| ------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------- |
+| `amount_of_shares`                                                                                            | *str*                                                                                                         | :heavy_check_mark:                                                                                            | The number of vault share tokens representing the user’s proportional ownership of the assets in the vault.   |
+| `amount_in_underlying_token`                                                                                  | *str*                                                                                                         | :heavy_check_mark:                                                                                            | The equivalent value of the user’s vault shares, denominated in the vault’s underlying asset (deposit token). |

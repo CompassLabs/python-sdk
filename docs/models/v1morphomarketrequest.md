@@ -1,0 +1,9 @@
+# V1MorphoMarketRequest
+
+
+## Fields
+
+| Field                                                                                            | Type                                                                                             | Required                                                                                         | Description                                                                                      |
+| ------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------ |
+| `chain`                                                                                          | [models.V1MorphoMarketChain](../models/v1morphomarketchain.md)                                   | :heavy_check_mark:                                                                               | N/A                                                                                              |
+| `unique_market_key`                                                                              | *str*                                                                                            | :heavy_check_mark:                                                                               | The key that uniquely identifies the market. This can be found using the 'Get Markets' endpoint. |

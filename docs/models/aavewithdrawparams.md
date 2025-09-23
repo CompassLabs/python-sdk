@@ -1,0 +1,11 @@
+# AaveWithdrawParams
+
+
+## Fields
+
+| Field                                                                    | Type                                                                     | Required                                                                 | Description                                                              | Example                                                                  |
+| ------------------------------------------------------------------------ | ------------------------------------------------------------------------ | ------------------------------------------------------------------------ | ------------------------------------------------------------------------ | ------------------------------------------------------------------------ |
+| `action_type`                                                            | *Optional[Literal["AAVE_WITHDRAW"]]*                                     | :heavy_minus_sign:                                                       | N/A                                                                      |                                                                          |
+| `token`                                                                  | *str*                                                                    | :heavy_check_mark:                                                       | The symbol of the underlying asset to withdraw..                         | WETH                                                                     |
+| `amount`                                                                 | [models.AaveWithdrawParamsAmount](../models/aavewithdrawparamsamount.md) | :heavy_check_mark:                                                       | The amount of the asset to withdraw                                      | 1.5                                                                      |
+| `recipient`                                                              | *str*                                                                    | :heavy_check_mark:                                                       | The address of the recipient of the withdrawn funds.                     | 0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2                               |

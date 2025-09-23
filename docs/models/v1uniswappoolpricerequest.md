@@ -1,0 +1,11 @@
+# V1UniswapPoolPriceRequest
+
+
+## Fields
+
+| Field                                                                      | Type                                                                       | Required                                                                   | Description                                                                | Example                                                                    |
+| -------------------------------------------------------------------------- | -------------------------------------------------------------------------- | -------------------------------------------------------------------------- | -------------------------------------------------------------------------- | -------------------------------------------------------------------------- |
+| `chain`                                                                    | [models.V1UniswapPoolPriceChain](../models/v1uniswappoolpricechain.md)     | :heavy_check_mark:                                                         | N/A                                                                        |                                                                            |
+| `token_in`                                                                 | *str*                                                                      | :heavy_check_mark:                                                         | The symbol or address of a token in the pool                               | USDC                                                                       |
+| `token_out`                                                                | *str*                                                                      | :heavy_check_mark:                                                         | The symbol or address of a token in the pool                               | USDC                                                                       |
+| `fee`                                                                      | [models.V1UniswapPoolPriceFeeEnum](../models/v1uniswappoolpricefeeenum.md) | :heavy_check_mark:                                                         | The fee of the pool                                                        |                                                                            |

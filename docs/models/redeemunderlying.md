@@ -1,0 +1,15 @@
+# RedeemUnderlying
+
+
+## Fields
+
+| Field                                                                  | Type                                                                   | Required                                                               | Description                                                            |
+| ---------------------------------------------------------------------- | ---------------------------------------------------------------------- | ---------------------------------------------------------------------- | ---------------------------------------------------------------------- |
+| `id`                                                                   | *str*                                                                  | :heavy_check_mark:                                                     | The id of a historical transaction on aave                             |
+| `timestamp`                                                            | *int*                                                                  | :heavy_check_mark:                                                     | Timestamp in unix time                                                 |
+| `tx_hash`                                                              | *str*                                                                  | :heavy_check_mark:                                                     | Transaction hash. You can paste these into the search bar on etherscan |
+| `amount`                                                               | *float*                                                                | :heavy_check_mark:                                                     | Quantity of token                                                      |
+| `reserve`                                                              | [models.Reserve](../models/reserve.md)                                 | :heavy_check_mark:                                                     | N/A                                                                    |
+| `asset_price_usd`                                                      | *float*                                                                | :heavy_check_mark:                                                     | Price of token in USD                                                  |
+| `action`                                                               | *str*                                                                  | :heavy_check_mark:                                                     | The type of transaction                                                |
+| `block`                                                                | *int*                                                                  | :heavy_check_mark:                                                     | N/A                                                                    |
