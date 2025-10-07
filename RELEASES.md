@@ -869,3 +869,33 @@ Based on:
 - [python v1.1.4] python-sdk
 ### Releases
 - [PyPI v1.1.4] https://pypi.org/project/compass_api_sdk/1.1.4 - python-sdk
+
+## 2025-09-30 09:25:04
+### Changes
+Based on:
+- OpenAPI Doc  
+- Speakeasy CLI 1.631.5 (2.716.16) https://github.com/speakeasy-api/speakeasy
+### Generated
+- [python v1.1.5rc0] python-sdk
+### Releases
+- [PyPI v1.1.5rc0] https://pypi.org/project/compass_api_sdk/1.1.5rc0 - python-sdk
+
+## 2025-10-01 14:54:09
+### Changes
+Based on:
+- OpenAPI Doc  
+- Speakeasy CLI 1.631.5 (2.716.16) https://github.com/speakeasy-api/speakeasy
+### Generated
+- [python v1.1.5] python-sdk
+### Releases
+- [PyPI v1.1.5] https://pypi.org/project/compass_api_sdk/1.1.5 - python-sdk
+
+## 2025-10-03 09:20:20
+### Changes
+Based on:
+- OpenAPI Doc  
+- Speakeasy CLI 1.634.1 (2.721.0) https://github.com/speakeasy-api/speakeasy
+### Generated
+- [python v1.2.0] python-sdk
+### Releases
+- [PyPI v1.2.0] https://pypi.org/project/compass_api_sdk/1.2.0 - python-sdk

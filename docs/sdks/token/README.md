@@ -11,11 +11,7 @@
 
 ## token_price
 
-Retrieves the price of a token in USD using Chainlink's on-chain price feeds.
-
-Chainlink is a decentralized oracle that aggregates price data from off-chain
-sources. This ensures the price is tamper-resistant but the price might be stale
-with the update frequency of the oracle.
+Retrieves the price of a token in USD.
 
 ### Example Usage
 

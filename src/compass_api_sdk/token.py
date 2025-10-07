@@ -22,11 +22,7 @@ class Token(BaseSDK):
     ) -> models.TokenPriceResponse:
         r"""Token Price
 
-        Retrieves the price of a token in USD using Chainlink's on-chain price feeds.
-
-        Chainlink is a decentralized oracle that aggregates price data from off-chain
-        sources. This ensures the price is tamper-resistant but the price might be stale
-        with the update frequency of the oracle.
+        Retrieves the price of a token in USD.
 
         :param chain:
         :param token: The symbol or address of the token for which to get the price..
@@ -119,11 +115,7 @@ class Token(BaseSDK):
     ) -> models.TokenPriceResponse:
         r"""Token Price
 
-        Retrieves the price of a token in USD using Chainlink's on-chain price feeds.
-
-        Chainlink is a decentralized oracle that aggregates price data from off-chain
-        sources. This ensures the price is tamper-resistant but the price might be stale
-        with the update frequency of the oracle.
+        Retrieves the price of a token in USD.
 
         :param chain:
         :param token: The symbol or address of the token for which to get the price..

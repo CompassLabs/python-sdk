@@ -3,10 +3,10 @@
 import importlib.metadata
 
 __title__: str = "compass_api_sdk"
-__version__: str = "1.1.4"
+__version__: str = "1.2.0"
 __openapi_doc_version__: str = "0.0.1"
-__gen_version__: str = "2.707.0"
-__user_agent__: str = "speakeasy-sdk/python 1.1.4 2.707.0 0.0.1 compass_api_sdk"
+__gen_version__: str = "2.721.0"
+__user_agent__: str = "speakeasy-sdk/python 1.2.0 2.721.0 0.0.1 compass_api_sdk"
 
 try:
     if __package__ is not None:
